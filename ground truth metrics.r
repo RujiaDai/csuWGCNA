@@ -1,6 +1,8 @@
 load('gold20181101.RData')
 
+#functions 
 
+##relevence&recovery
 jaccard<-function (x,y) 
 {
     if (!(is.list(x)|is.list(y))) 
@@ -31,7 +33,7 @@ recovery[[i]]<-median(apply(df,2,max))
 
 cscore<-cbind(relevence,recovery)
 
-
+##specificity & sensitivity
 specificity<-function(test,gold,id){
   
   mat<-matrix(NA,2,2)
@@ -95,6 +97,7 @@ sensiMatrix<-function (test,ref,dataset)
     Mat
 }
 
+##NPV && PPV
 precision<-function(test,gold,id){
   
   mat<-matrix(NA,2,2)
