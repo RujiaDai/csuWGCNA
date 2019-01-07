@@ -1,10 +1,10 @@
 # csuWGCNA
 If you want to run csuWGCNA, run following R code:
 
-library(WGCNA)
-library(doParallel)
-source('hpickSoftThreshold.r')
-source('Hadjacency.r')
+library(WGCNA); 
+library(doParallel);
+source('hpickSoftThreshold.r');
+source('Hadjacency.r');
 options(stringsAsFactors = F)
 
 ## power selection
