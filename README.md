@@ -1,6 +1,5 @@
 # csuWGCNA
-If you want to run csuWGCNA, run following R code:
-
+## Usage:
 library(WGCNA); 
 library(doParallel);
 source('hpickSoftThreshold.r');
