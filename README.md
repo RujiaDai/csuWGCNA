@@ -1,6 +1,6 @@
 # csuWGCNA
 csuWGCNA is a modified WGCNA precedure which is intended to capture negative correlations in the expression data.
-![images](https://github.com/RujiaDai/csuWGCNA/blob/master/source%20code/Figure1.tif)
+![images](https://github.com/RujiaDai/csuWGCNA/blob/master/source%20code/Figure1.png)
 
 
 ## Usage:
