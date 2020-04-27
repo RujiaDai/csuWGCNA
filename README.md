@@ -1,13 +1,13 @@
 # csuWGCNA
-csuWGCNA is a modified WGCNA precedure which is intended to capture negative correlations in the expression data.
+csuWGCNA is a modified WGCNA procedure which is intended to capture negative correlations in the expression data.
 ![images](https://github.com/RujiaDai/csuWGCNA/blob/master/source%20code/Figure1.png)
 
 
 ## Usage:
-library(WGCNA); 
-library(doParallel);
-source('hpickSoftThreshold.r');
-source('Hadjacency.r');
+library(WGCNA);\
+library(doParallel);\
+source('hpickSoftThreshold.r');\
+source('Hadjacency.r');\
 options(stringsAsFactors = F)
 
 ## power selection
