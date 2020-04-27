@@ -1,4 +1,8 @@
 # csuWGCNA
+csuWGCNA is a modified WGCNA precedure which is intended to capture negative correlations in the expression data.
+
+
+
 ## Usage:
 library(WGCNA); 
 library(doParallel);
